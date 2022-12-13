@@ -25,10 +25,12 @@ footer {
 /* HEADER */
 nav {
     display: flex;
+    justify-content: flex-start;
     width: 100%;
     height: 3rem;
-    background-color: #999; /* a supprimer */
-    opacity: 0.33;
+    background-color: #897615; /* a supprimer */
+    /* opacity: 0.33; */
+    padding: 1rem 1rem 1rem 0;
 }
 
 /* nav img {
@@ -40,9 +42,11 @@ nav ul {
 }
 
 nav li {
+    display: inline-block;
     list-style-type: none;
     margin: 0 0 0 1rem;
-    padding: 1rem 0.5rem 1rem 0.5rem;
+    /* justify-content : space-between; */
+    /* padding: 1rem 0.5rem 1rem 0.5rem; */
 }
 
 nav a {
@@ -50,9 +54,19 @@ nav a {
     color: #222;
     text-transform: uppercase;
     font-family: Franklin Gothic Medium, sans-serif;
+    font-weight: bold;
 }
 
 nav a:hover {
     border-bottom: 1.5px solid #222;
 }
+
+nav form {
+    margin-left: auto;
+
+}
+
+/* .headerNavSearchForm {
+
+} */
 /* HEADER */
