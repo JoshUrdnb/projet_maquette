@@ -2,19 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box ;
+    font-family: Helvetica;
 }
 
 /* HEADER */
-header {
-    z-index: 999;
-}
-
 nav {
     display: flex;
     width: 100%;
     padding: 0.5rem;
-    background-color: rgba(197, 197, 255, 0.9); 
-    color: rgba(197, 197, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.9);
+    position: fixed;
 }
 
 header ul {
@@ -40,7 +37,6 @@ header a:hover {
 
 header form {
     margin-left: auto;
-
 }
 /* HEADER */
 
@@ -56,6 +52,33 @@ main h1 {
     text-align: center;
     font-size: 8em;
     font-weight: bold;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: -2rem;
+}
+
+.img-article {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainSections {
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    text-align: justify;
+    margin-top: 5rem;
+}
+
+.mainDivCenter {
+    margin: auto;
+    justify-content: center;
+}
+
+.new {
+    padding: 0.3rem;
+    font-weight: bold;
+    color: #FFF;
+    background-color: #BB3824;
+    border-radius: 20%;
 }
 /* MAIN */
